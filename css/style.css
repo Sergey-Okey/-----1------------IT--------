@@ -1,0 +1,318 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 70vw;
+}
+
+/*  HEADER */
+
+header {
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	background-color: #fff;
+	align-items: center;
+	box-shadow: 0 0 10px 10px rgba(35, 23, 101, 0.05);
+	z-index: 2;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(15, 118, 251);
+	font-weight: 900;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	text-wrap: nowrap;
+}
+
+.header-content {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* NAV / NAVIGATION */
+
+nav {
+	align-items: center;
+}
+
+nav ul {
+	display: inline-flex;
+	list-style-type: none;
+	gap: 3rem;
+}
+
+nav ul li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: lowercase;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 600;
+	text-wrap: nowrap;
+}
+
+nav ul li a:hover {
+	color: rgb(15, 118, 251);
+	transition: 0.3s;
+}
+
+nav ul li a:active {
+	color: black;
+}
+
+/* MAIN TYTLE STYLE*/
+
+.main-text b {
+	color: rgb(239, 79, 79);
+}
+
+h1 {
+	font-size: 3rem;
+	width: 90%;
+}
+
+h2 {
+	font-size: 2.2rem;
+	color: rgb(15, 118, 251);
+}
+
+p {
+	line-height: 150%;
+	font-weight: 400;
+}
+
+figcaption {
+	opacity: 5%;
+}
+
+#big-title figure {
+	float: right;
+}
+
+#big-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 4rem;
+}
+
+/* SECTION #VAC */
+
+#vac ul li {
+	display: inline-block;
+	font-size: 1.5rem;
+	background-color: rgb(239, 79, 79);
+	padding: 10px 20px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+#vac ul li:nth-child(2n) {
+	background-color: rgb(15, 118, 251);
+}
+
+#vac ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#vac ul li a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+
+#vac ul li:hover {
+	background: none;
+	transition: 0.3s;
+}
+
+#vac ul li a:hover {
+	color: rgb(15, 118, 251);
+}
+
+/* SECTION CONDIT */
+
+#condit b {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+#condit th {
+	font-size: 1rem;
+}
+
+/* TABLE */
+
+table {
+	box-shadow: 0 0 10px 10px rgba(35, 23, 101, 0.05);
+	border-radius: 30px;
+	padding: 0 20px;
+}
+
+table td,
+th {
+	padding: 10px;
+	text-align: center;
+}
+
+table tr:nth-child(2n) {
+	background-color: rgb(239, 79, 79);
+}
+
+table tr:nth-child(2n) td:last-child {
+	border-radius: 0 30px 30px 0;
+}
+
+table tr:nth-child(2n) th {
+	border-radius: 30px 0 0 30px;
+}
+
+/* FORM */
+
+.form-content input,
+textarea,
+label,
+select {
+	display: block;
+}
+
+.form-content input,
+textarea,
+select,
+fieldset {
+	margin-bottom: 30px;
+}
+
+fieldset label,
+fieldset input {
+	display: inline-block;
+}
+
+.form-content,
+input,
+textarea,
+select {
+	font-size: 1.1rem;
+	padding: 15px 25px;
+	border-radius: 10px;
+	border: 0;
+	color: rgb(15, 118, 251);
+}
+
+.form-content input {
+	width: 50%;
+}
+
+#sred-obch,
+#vs,
+#sred-prof {
+	width: 10px;
+	height: 10px;
+}
+
+input[type=checkbox] {
+	transform: scale(2);
+	padding: 10px;
+}
+
+.form-content input,
+textarea,
+select {
+	box-shadow: 0 0 10px 5px rgba(35, 23, 101, 0.05);
+}
+
+input:focus {
+	border: 3px solid rgb(15, 118, 251);
+	outline: none;
+}
+
+select:focus {
+	border: 3px solid rgb(15, 118, 251);
+	outline: none;
+}
+
+textarea:focus {
+	border: 3px solid rgb(15, 118, 251);
+	outline: none;
+}
+
+.form-content textarea {
+	width: 50%;
+	padding: 10px 25px;
+}
+
+fieldset {
+	border: none;
+	display: flexbox;
+	align-items: center;
+}
+
+fieldset label {
+	margin-bottom: 20px;
+}
+
+/* LOGIK BLOCK  */
+
+.logic-block {
+	padding: 80px 0;
+}
+
+/* FOOTER*/
+
+footer {
+	justify-content: center;
+	width: 100%;
+	display: flex;
+	background-color: #fff;
+	padding: 20px 0;
+	background-color: rgb(15, 118, 251);
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.footer-content a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Button */
+
+button {
+	border: 0;
+	background-color: rgb(15, 118, 251);
+	border-radius: 30px;
+	padding: 15px 25px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+button:hover {
+	box-shadow: 0 0 5px 1px #000;
+}
+
+button[type=reset] {
+	background-color: rgb(239, 79, 79);
+}
+
+/* SECTION Aplication */

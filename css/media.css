@@ -1,0 +1,113 @@
+@media screen and (max-width: 1280px) {
+	#vac {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+	.container {
+		width: 90vw;
+	}
+
+	.header-content {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		position: relative;
+		width: 100%;
+		justify-content: left;
+	}
+
+	.header-content {
+		display: flex;
+		margin-left: 15px;
+		padding: 15px 0;
+	}
+
+	#vac ul li a {
+		font-size: 1.2rem;
+	}
+
+	.header-content a {
+		font-size: 1.2rem;
+	}
+
+	table {
+		display: none;
+	}
+
+	.main-text {
+		font-size: 2.5rem;
+		text-align: left;
+
+	}
+
+	#big-title {
+		padding: 0;
+		display: block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	figure {
+		display: none;
+	}
+
+	.container {
+		width: 95%;
+	}
+
+	.logic-block {
+		width: 100%;
+		padding: 20px 0;
+	}
+
+	#requir p {
+		font-size: 1.1rem;
+	}
+
+	.form-content {
+		padding: 0;
+	}
+
+	.footer-content a {
+		font-size: 1.2rem;
+		padding: 0;
+	}
+
+	.footer-content {
+		flex-wrap: wrap;
+		display: flex;
+		align-items: center;
+		gap: 0;
+		justify-content: center;
+	}
+
+	#sogl {
+		text-decoration: underline;
+	}
+
+	.form-content input {
+		width: 86.5%;
+	}
+
+	#desc {
+		width: 86.5%;
+	}
+
+	#city,
+	#naps {
+		width: 100%;
+		background-color: #fff;
+	}
+
+	.aplication-button {
+		display: flex;
+	}
+
+}
